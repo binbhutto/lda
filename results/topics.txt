@@ -1,0 +1,10 @@
+Optimal number of topics: 4
+
+Topic: 0 
+Words: 0.018*"product" + 0.013*"cookie" + 0.013*"good" + 0.010*"food" + 0.008*"flavor" + 0.007*"organic" + 0.007*"brand" + 0.007*"sugar" + 0.006*"well" + 0.006*"chocolate"
+Topic: 1 
+Words: 0.020*"flavor" + 0.019*"good" + 0.011*"product" + 0.009*"taste" + 0.009*"blend" + 0.008*"great" + 0.008*"roast" + 0.008*"coffee" + 0.008*"salt" + 0.007*"chocolate"
+Topic: 2 
+Words: 0.017*"taste" + 0.015*"food" + 0.013*"good" + 0.012*"product" + 0.010*"cookie" + 0.010*"time" + 0.010*"great" + 0.008*"coffee" + 0.007*"chocolate" + 0.007*"soft"
+Topic: 3 
+Words: 0.013*"coffee" + 0.013*"product" + 0.010*"good" + 0.010*"food" + 0.009*"can" + 0.009*"taste" + 0.008*"star" + 0.008*"salt" + 0.007*"store" + 0.007*"time"
