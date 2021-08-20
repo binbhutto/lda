@@ -1,8 +1,6 @@
-from typing import Generator
 import warnings
 import os
 import sys
-
 import gensim
 
 from sample_generator.reviewGenerator import reviewGenerator
