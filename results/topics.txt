@@ -1,26 +1,38 @@
-Optimal number of topics: 12
+Optimal number of topics: 18
 
 Topic: 0 
-Words: 0.028*"bag" + 0.027*"yummy" + 0.022*"pack" + 0.020*"small" + 0.019*"large" + 0.018*"size" + 0.014*"coat" + 0.012*"variety" + 0.011*"biscuit" + 0.011*"kid"
+Words: 0.062*"price" + 0.052*"store" + 0.031*"find" + 0.027*"good" + 0.024*"product" + 0.021*"local" + 0.018*"grocery" + 0.017*"great" + 0.015*"buy" + 0.014*"well"
 Topic: 1 
-Words: 0.069*"flavor" + 0.050*"chip" + 0.037*"salt" + 0.030*"butter" + 0.028*"peanut" + 0.027*"good" + 0.025*"taste" + 0.024*"great" + 0.022*"sweet" + 0.018*"potato"
+Words: 0.040*"bag" + 0.020*"fresh" + 0.015*"time" + 0.015*"date" + 0.015*"well" + 0.014*"popcorn" + 0.012*"product" + 0.011*"buy" + 0.010*"order" + 0.010*"come"
 Topic: 2 
-Words: 0.029*"bread" + 0.028*"green" + 0.020*"tea" + 0.019*"night" + 0.018*"ginger" + 0.017*"cake" + 0.016*"lemon" + 0.015*"flavor" + 0.012*"time" + 0.012*"chai"
+Words: 0.058*"chocolate" + 0.040*"cookie" + 0.025*"candy" + 0.022*"taste" + 0.022*"bar" + 0.016*"love" + 0.015*"flavor" + 0.013*"good" + 0.011*"ginger" + 0.011*"delicious"
 Topic: 3 
-Words: 0.027*"bottle" + 0.025*"popcorn" + 0.022*"great" + 0.019*"picky" + 0.018*"time" + 0.017*"product" + 0.016*"container" + 0.015*"olive" + 0.015*"plastic" + 0.014*"little"
+Words: 0.091*"sugar" + 0.048*"coconut" + 0.045*"syrup" + 0.040*"ingredient" + 0.031*"corn" + 0.028*"natural" + 0.026*"product" + 0.022*"contain" + 0.018*"artificial" + 0.015*"sweetener"
 Topic: 4 
-Words: 0.035*"sugar" + 0.033*"water" + 0.026*"taste" + 0.025*"flavor" + 0.024*"good" + 0.020*"drink" + 0.019*"sweet" + 0.018*"milk" + 0.018*"product" + 0.015*"great"
+Words: 0.040*"taste" + 0.028*"drink" + 0.022*"flavor" + 0.021*"do" + 0.020*"good" + 0.015*"well" + 0.015*"water" + 0.014*"sweet" + 0.013*"really" + 0.012*"product"
 Topic: 5 
-Words: 0.124*"coffee" + 0.034*"flavor" + 0.026*"good" + 0.021*"strong" + 0.018*"taste" + 0.016*"blend" + 0.014*"kcup" + 0.013*"bean" + 0.013*"great" + 0.012*"vanilla"
+Words: 0.062*"order" + 0.018*"time" + 0.012*"great" + 0.012*"receive" + 0.011*"good" + 0.011*"find" + 0.011*"love" + 0.010*"product" + 0.010*"thank" + 0.010*"delivery"
 Topic: 6 
-Words: 0.043*"product" + 0.032*"order" + 0.032*"time" + 0.027*"great" + 0.022*"good" + 0.020*"year" + 0.016*"month" + 0.011*"last" + 0.011*"cereal" + 0.011*"case"
+Words: 0.037*"cat" + 0.035*"food" + 0.022*"love" + 0.019*"smell" + 0.015*"look" + 0.015*"do" + 0.014*"healthy" + 0.012*"pouch" + 0.012*"fish" + 0.012*"picky"
 Topic: 7 
-Words: 0.054*"chocolate" + 0.040*"cookie" + 0.033*"good" + 0.028*"snack" + 0.020*"candy" + 0.019*"bar" + 0.018*"great" + 0.014*"taste" + 0.014*"flavor" + 0.013*"delicious"
+Words: 0.035*"product" + 0.025*"order" + 0.024*"package" + 0.018*"can" + 0.013*"arrive" + 0.013*"size" + 0.011*"great" + 0.011*"pack" + 0.010*"come" + 0.010*"good"
 Topic: 8 
-Words: 0.077*"price" + 0.070*"store" + 0.048*"good" + 0.030*"local" + 0.027*"great" + 0.025*"grocery" + 0.019*"product" + 0.016*"brand" + 0.014*"cheap" + 0.014*"well"
+Words: 0.037*"flavor" + 0.033*"chip" + 0.028*"snack" + 0.027*"taste" + 0.026*"good" + 0.023*"great" + 0.021*"salt" + 0.019*"love" + 0.014*"calorie" + 0.012*"healthy"
 Topic: 9 
-Words: 0.051*"product" + 0.046*"protein" + 0.044*"free" + 0.029*"gluten" + 0.023*"wheat" + 0.023*"hair" + 0.021*"fiber" + 0.021*"ingredient" + 0.019*"organic" + 0.018*"flour"
+Words: 0.033*"food" + 0.025*"good" + 0.021*"sauce" + 0.019*"love" + 0.015*"do" + 0.013*"little" + 0.013*"baby" + 0.013*"really" + 0.012*"like" + 0.012*"try"
 Topic: 10 
-Words: 0.089*"food" + 0.027*"treat" + 0.027*"dog" + 0.018*"cat" + 0.017*"product" + 0.016*"good" + 0.013*"year" + 0.012*"healthy" + 0.012*"great" + 0.011*"time"
+Words: 0.043*"bottle" + 0.028*"energy" + 0.020*"packet" + 0.018*"make" + 0.015*"water" + 0.015*"use" + 0.015*"container" + 0.012*"need" + 0.012*"glass" + 0.010*"plastic"
 Topic: 11 
-Words: 0.038*"sauce" + 0.032*"good" + 0.020*"cheese" + 0.019*"rice" + 0.019*"pasta" + 0.019*"soup" + 0.017*"spicy" + 0.017*"chicken" + 0.015*"great" + 0.014*"meal"
+Words: 0.051*"food" + 0.045*"treat" + 0.035*"love" + 0.031*"dog" + 0.016*"give" + 0.013*"product" + 0.013*"year" + 0.012*"make" + 0.010*"problem" + 0.009*"do"
+Topic: 12 
+Words: 0.027*"peanut" + 0.027*"butter" + 0.025*"taste" + 0.017*"good" + 0.017*"flavor" + 0.014*"soup" + 0.014*"make" + 0.013*"cook" + 0.012*"water" + 0.012*"well"
+Topic: 13 
+Words: 0.026*"make" + 0.021*"free" + 0.019*"cereal" + 0.018*"milk" + 0.016*"gluten" + 0.014*"great" + 0.013*"bread" + 0.013*"product" + 0.012*"taste" + 0.012*"good"
+Topic: 14 
+Words: 0.031*"coffee" + 0.027*"flavor" + 0.018*"make" + 0.017*"machine" + 0.016*"taste" + 0.013*"water" + 0.013*"vanilla" + 0.013*"pill" + 0.012*"use" + 0.012*"cherry"
+Topic: 15 
+Words: 0.019*"keep" + 0.019*"treat" + 0.018*"take" + 0.018*"time" + 0.018*"last" + 0.018*"do" + 0.017*"long" + 0.016*"chew" + 0.016*"love" + 0.015*"great"
+Topic: 16 
+Words: 0.093*"coffee" + 0.034*"flavor" + 0.026*"taste" + 0.022*"good" + 0.020*"strong" + 0.015*"blend" + 0.014*"try" + 0.013*"drink" + 0.011*"make" + 0.011*"brew"
+Topic: 17 
+Words: 0.026*"cheese" + 0.024*"rice" + 0.023*"protein" + 0.018*"spice" + 0.018*"cracker" + 0.017*"olive" + 0.012*"make" + 0.012*"meal" + 0.011*"nutrition" + 0.010*"tomato"

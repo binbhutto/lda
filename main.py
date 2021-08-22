@@ -10,11 +10,11 @@ warnings.filterwarnings('ignore')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 ## Configuration
-sample_per_review_train = 20000 
-sample_per_review_test = 100
+sample_per_review_train = 10000 
+sample_per_review_test = 100 
 min_topic = 2
 step = 1
-max_topic = 20
+max_topic = 42 
 ## End Configuration
 
 def topic_modelling(argv):
@@ -24,6 +24,7 @@ def topic_modelling(argv):
     LdaGenerator = ldaGenerator()
 
     dictionary, word_embeddings, texts = InputGenerator.get_training_sample(sample_per_review=sample_per_review_train)
+
     ldaModel, total_topics, topics = LdaGenerator.fit(dictionary = dictionary, 
                                                       corpus = word_embeddings,
                                                       texts = texts, 

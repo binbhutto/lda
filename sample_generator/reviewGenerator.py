@@ -35,13 +35,13 @@ class reviewGenerator(object):
             exit(1)
         review_data= pd.read_csv(self.file_path,)
         review_data.dropna(axis = 0, how ='any',inplace=True) 
-        review_data['Text'] = review_data['Text'].apply(self.clean_text)
-        review_data['Num_words_text'] = review_data['Text'].apply(lambda x:len(str(x).split())) 
-
-        mask = (review_data['Num_words_text'] < 100) & (review_data['Num_words_text'] >=20)
-        df_short_reviews = review_data[mask]
-        df_sampled = df_short_reviews.groupby('Score').apply(lambda x: x.sample(n=sample_per_review)).reset_index(drop = True)
+        df_sampled = review_data.groupby('Score').apply(lambda x: x.sample(n=sample_per_review)).reset_index(drop = True)
         test_sampled = df_sampled['Text'].to_frame()
+        df_sampled['Text'] = df_sampled['Text'].apply(self.clean_text)
+        # review_data['Num_words_text'] = review_data['Text'].apply(lambda x:len(str(x).split())) 
+
+        # mask = (review_data['Num_words_text'] < 100) & (review_data['Num_words_text'] >=20)
+        # df_sampled = review_data[mask]
         df_sampled['Text']=df_sampled['Text'].apply(self.remove_stopwords)
         text_list=df_sampled['Text'].tolist()
         tokenized_reviews = self.lemmatization(text_list)
@@ -60,7 +60,7 @@ class reviewGenerator(object):
         text2 = ' '.join([w for w in textArr if ( not w.isdigit() and  ( not w.isdigit() and len(w)>3))]) 
         return text2.lower()
 
-    def lemmatization(self, texts, allowed_postags=['NOUN', 'ADJ']): 
+    def lemmatization(self, texts, allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']): 
         nlp = spacy.load('en_core_web_md', disable=['parser', 'ner'])
         output = []
         for sent in texts:
