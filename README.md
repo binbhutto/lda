@@ -12,7 +12,7 @@
    <img 
    src="https://drive.google.com/uc?export=view&id=1wxYjf8UcjjZXTmNpKfOay_rvkrIiAd4X">
 </p>
-<h4 align="center">Figure 1.0 : High level view of modules and driver file</h4>
+<p align="center">Figure 1.0 : High level view of modules and driver file</p>
 <br>
 
 ## Scope of Improvements:
