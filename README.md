@@ -1,5 +1,5 @@
 ## LDA Topic Modeling: 
-Latent Dirchlet Allocation(LDA) is used to do unsuvervised topic modeling. Model is trained and tested on Amazon food revies dataset from Kaggle[3].
+> Latent Dirchlet Allocation(LDA) is used to do unsuvervised topic modeling. Model is trained and tested on Amazon food revies dataset from Kaggle[3].
 
 ## Pre Requisites
 > - numpy, pandas, matplotlib
@@ -12,7 +12,7 @@ Latent Dirchlet Allocation(LDA) is used to do unsuvervised topic modeling. Model
    <img 
    src="https://drive.google.com/uc?export=view&id=1wxYjf8UcjjZXTmNpKfOay_rvkrIiAd4X">
 </p>
-<center>Figure 1.0 : High level view of modules and driver file</center>
+<h4 align="center">Figure 1.0 : High level view of modules and driver file</h4>
 <br>
 
 ## Scope of Improvements:
