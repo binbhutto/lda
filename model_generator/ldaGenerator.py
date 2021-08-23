@@ -7,7 +7,6 @@ class ldaGenerator(object):
         self.topics_range = None
         self.model_list = [] 
         self.coherence_values = []
-
         self.optimal_model = None
         self.optimal_topic_nums = None
 
@@ -18,12 +17,10 @@ class ldaGenerator(object):
             self.model_list.append(model)
             coherencemodel = gensim.models.CoherenceModel(model=model, texts=texts, dictionary=dictionary, coherence='c_v')
             self.coherence_values.append(coherencemodel.get_coherence())
-        
         optimal_index = self.get_optimal_index()
         self.optimal_model = self.model_list[optimal_index]
         self.optimal_topic_nums = self.topics_range[optimal_index]
         topics = self.optimal_model.print_topics(-1)
-
         return self.optimal_model, self.optimal_topic_nums, topics
     
     def predict(self, corpus):

@@ -16,17 +16,14 @@ class reviewGenerator(object):
         review_data.dropna(axis = 0, how ='any',inplace=True) 
         review_data['Text'] = review_data['Text'].apply(self.clean_text)
         review_data['Num_words_text'] = review_data['Text'].apply(lambda x:len(str(x).split())) 
-
         mask = (review_data['Num_words_text'] < 100) & (review_data['Num_words_text'] >=20)
         df_short_reviews = review_data[mask]
         df_sampled = df_short_reviews.groupby('Score').apply(lambda x: x.sample(n=sample_per_review, random_state=0)).reset_index(drop = True)
         df_sampled['Text']=df_sampled['Text'].apply(self.remove_stopwords)
         text_list=df_sampled['Text'].tolist()
         tokenized_reviews = self.lemmatization(text_list)
-
         self.dictionary = corpora.Dictionary(tokenized_reviews)
         doc_term_matrix = [self.dictionary.doc2bow(rev) for rev in tokenized_reviews]
-
         return (self.dictionary, doc_term_matrix, tokenized_reviews)
 
     def get_testing_sample(self, sample_per_review):
@@ -38,16 +35,10 @@ class reviewGenerator(object):
         df_sampled = review_data.groupby('Score').apply(lambda x: x.sample(n=sample_per_review)).reset_index(drop = True)
         test_sampled = df_sampled['Text'].to_frame()
         df_sampled['Text'] = df_sampled['Text'].apply(self.clean_text)
-        # review_data['Num_words_text'] = review_data['Text'].apply(lambda x:len(str(x).split())) 
-
-        # mask = (review_data['Num_words_text'] < 100) & (review_data['Num_words_text'] >=20)
-        # df_sampled = review_data[mask]
         df_sampled['Text']=df_sampled['Text'].apply(self.remove_stopwords)
         text_list=df_sampled['Text'].tolist()
         tokenized_reviews = self.lemmatization(text_list)
-
         doc_term_matrix = [self.dictionary.doc2bow(rev) for rev in tokenized_reviews]
-
         return (doc_term_matrix, test_sampled)
 
 
